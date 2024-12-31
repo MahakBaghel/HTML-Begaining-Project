@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+        color: black;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        border: 2px red double;
+        width: 600px;
+        height: 1100px;
+
+    }
+    h2{
+        color: blue;
+    }
+    label{
+        color: rgb(225, 0, 255);
+    }
+    table{
+        margin: auto;
+        padding: auto;
+    }
+</style>
+<body>
+    <h1>Student Details</h1>
+    <form>
+        
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name" name="n" required>
+        <br>
+        <label>Roll-no</label>
+        <input type="text" placeholder="Enter your Roll-no" name="r" required>
+        <br>
+        
+        <h2>Class and Section</h2>
+        <br>
+        <label>CS-A</label>
+        <input type="radio" name="CS-A" checked>
+        <br>
+        <label>CS-B</label>
+        <input type="radio" name="CS-B">
+        <br>
+        <label>CS-C</label>
+        <input type="radio" name="CS-C">
+        <br>
+        <h2>Choose Subjects</h2>
+        <br>
+        <label>Mathematics</label>
+        <input type="checkbox" name="math">
+        <br>
+        <label>Chemistry</label>
+        <input type="checkbox" name="chemis">
+        <br>
+        <label>Physics</label>
+        <input type="checkbox" name="py">
+        <br>
+        <label>Computer Sceince</label>
+        <input type="checkbox" name="cs">
+        <br>
+        <label>Java</label>
+        <input type="checkbox" name="java">
+        <br>
+        </pre>
+        <h2>Student Marks Subjectwise</h2>
+        <br>
+        <table border="4px" width="500px">
+       <tr>
+        <th>Mathematics</th>
+        <td>66</td>
+        <td>77</td>
+        <td>88</td>
+       </tr>
+       <tr>
+        <th>Chemistry</th>
+        <td>50</td>
+        <td>70</td>
+        <td>80</td>
+       </tr>
+       <tr>
+        <th>Physics</th>
+        <td>55</td>
+        <td>76</td>
+        <td>85</td>
+       </tr>
+       <tr>
+        <th>computer Sceince</th>
+        <td>65</td>
+        <td>75</td>
+        <td>85</td>
+       </tr>
+       <tr>
+        <th>Java</th>
+        <td>46</td>
+        <td>67</td>
+        <td>78</td>
+       </tr>
+        </table>
+        <br>
+        <h2>Student Project</h2>
+       <video loop="5" width="370" height="300" controls>
+       <source src="movie.mp4" type="video/mp4">
+       </video>
+    </form>
+
+</body>
+</html>
